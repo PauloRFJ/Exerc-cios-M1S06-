@@ -31,7 +31,7 @@ header {
       #1a1a1a 75%,
       #1a1a1a
     );
-    background-size: 40px 40px;
+    background-size: 65px 65px;
   
     /* Animation */
     animation: move 4s linear infinite;
@@ -161,4 +161,84 @@ header {
 
   #navBar {
     padding: 5px;
+  }
+
+  #gifProg {
+    border-radius: 50%;
+    margin: 20px;
+    width: 350px;
+    height: 350px;   
+  }
+
+  #btn1 {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+
+  #btn2 {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+
+  #btn3 {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+
+  #btn4 {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+  
+  button:hover {
+    text-decoration: none;
+    transform: translate(5px, -5px);
+    cursor: pointer;
+  }
+
+  .btns {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin:  20px;
+    padding: 0 200px 0 200px;
+  }
+
+  .links {
+    text-decoration: none;
+    color: white;
   }
